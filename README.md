@@ -1,4 +1,3 @@
-````markdown
 # ComplaintHub – Complaint Management System
 
 A role-based complaint management web application that allows users to submit and track complaints while enabling administrators and support staff to manage, assign, and resolve them.
@@ -69,7 +68,7 @@ In Progress / Resolved
   │
   ▼
 User tracks updated status
-````
+```
 
 ---
 
@@ -77,21 +76,21 @@ User tracks updated status
 
 ### Frontend
 
-* React
-* JavaScript
-* Vite
-* React Router
+- React
+- JavaScript
+- Vite
+- React Router
 
 ### Backend / Cloud
 
-* Firebase Authentication
-* Cloud Firestore
+- Firebase Authentication
+- Cloud Firestore
 
 ### Development Tools
 
-* VS Code
-* npm
-* Git / GitHub
+- VS Code
+- npm
+- Git / GitHub
 
 ---
 
@@ -134,20 +133,20 @@ Firebase is used for the application's backend services.
 
 Firebase Authentication handles:
 
-* User registration
-* User login
-* User logout
-* Authentication state
+- User registration
+- User login
+- User logout
+- Authentication state
 
 ### Cloud Firestore
 
 Cloud Firestore stores application data such as:
 
-* User information
-* Complaint information
-* Complaint status
-* Complaint priority
-* Staff assignment
+- User information
+- Complaint information
+- Complaint status
+- Complaint priority
+- Staff assignment
 
 The application updates complaint information in Firestore so that changes made by administrators or staff can be reflected when users view their complaints.
 
@@ -193,19 +192,19 @@ The application provides dashboard statistics for administrators and staff.
 
 Displays:
 
-* Total complaints
-* Pending complaints
-* In-progress complaints
-* Resolved complaints
+- Total complaints
+- Pending complaints
+- In-progress complaints
+- Resolved complaints
 
 ### Staff Dashboard
 
 Displays:
 
-* Assigned complaints
-* Pending complaints
-* In-progress complaints
-* Resolved complaints
+- Assigned complaints
+- Pending complaints
+- In-progress complaints
+- Resolved complaints
 
 ---
 
@@ -224,14 +223,14 @@ npm run dev
 
 The project was developed to demonstrate:
 
-* Frontend application development using React
-* Component-based UI development
-* Client-side routing
-* Authentication
-* Cloud database integration
-* Role-based application workflows
-* CRUD operations with Firestore
-* Real-world complaint management workflow
+- Frontend application development using React
+- Component-based UI development
+- Client-side routing
+- Authentication
+- Cloud database integration
+- Role-based application workflows
+- CRUD operations with Firestore
+- Real-world complaint management workflow
 
 ---
 
@@ -239,15 +238,14 @@ The project was developed to demonstrate:
 
 Possible future improvements include:
 
-* Email notifications for complaint updates
-* Complaint search and filtering
-* File and image attachments
-* Complaint comments and communication between users and staff
-* Admin analytics and charts
-* Complaint history and activity logs
-* Improved mobile responsiveness
-* Automated complaint categorization
-* Deployment to a production hosting platform
+- Email notifications for complaint updates
+- Complaint search and filtering
+- File and image attachments
+- Complaint comments and communication between users and staff
+- Admin analytics and charts
+- Complaint history and activity logs
+- Improved mobile responsiveness
+- Automated complaint categorization
 
 ---
 
@@ -262,6 +260,3 @@ Possible future improvements include:
 **ComplaintHub – Complaint Management System**
 
 A role-based web application designed to simplify the process of submitting, assigning, tracking, and resolving complaints.
-
-```
-```
